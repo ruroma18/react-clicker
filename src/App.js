@@ -1,10 +1,11 @@
 import './App.css';
-import ClickerCounter from './components/ClickerContainer';
+import './reset.css';
+import Clicker from './components/Clicker';
 
 function App() {
   return (
     <div className="App">
-      <ClickerCounter />
+      <Clicker />
     </div>
   );
 }

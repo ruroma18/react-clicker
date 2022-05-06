@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.inputNumber {
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clickerBtn {
+  background-color:whitesmoke;
+  border: 2px solid black;
+  border-radius: 10px;
+  min-width: 200px;
+  margin: 10px auto;
+  transition: background-color, 0.4s linear;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}

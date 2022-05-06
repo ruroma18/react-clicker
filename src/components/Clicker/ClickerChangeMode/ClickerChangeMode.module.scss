@@ -1,0 +1,14 @@
+@import './../../../common/styles/templates';
+
+.checkWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  margin-left: calc(100% / 2.5);
+}
+
+.inputName {
+  margin-left: 5px;
+}

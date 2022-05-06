@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.clickerHeading {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.clickerAdd {
+  font-size: 1.2em;
+  color: blue;
+}
+
+.clickerSub {
+  color: red;
+}
