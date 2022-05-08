@@ -1,4 +1,4 @@
-.container {
+%container {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -7,18 +7,18 @@
   border-radius: 20px;
 }
 
-.heading {
+%heading {
   font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
-.inputNumber {
+%inputNumber {
   max-width: 200px;
   margin: 0 auto;
   text-align: center;
 }
 
-.clickerBtn {
+%clickerBtn {
   background-color:whitesmoke;
   border: 2px solid black;
   border-radius: 10px;

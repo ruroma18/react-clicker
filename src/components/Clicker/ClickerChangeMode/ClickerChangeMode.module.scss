@@ -1,5 +1,13 @@
 @import './../../../common/styles/templates';
 
+.container {
+  @extend %container;
+}
+
+.heading {
+  @extend %heading;
+}
+
 .checkWrapper{
   display: flex;
   flex-direction: row;

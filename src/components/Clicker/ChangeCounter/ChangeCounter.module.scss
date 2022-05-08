@@ -1,1 +1,5 @@
 @import './../../../common/styles/templates';
+
+.clickerBtn {
+  @extend %clickerBtn;
+}

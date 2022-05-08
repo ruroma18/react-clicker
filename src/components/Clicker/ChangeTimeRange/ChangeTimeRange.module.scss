@@ -1,1 +1,13 @@
 @import './../../../common/styles/templates';
+
+.container {
+  @extend %container;
+}
+
+.heading {
+  @extend %heading;
+}
+
+.inputNumber {
+  @extend %inputNumber
+}
